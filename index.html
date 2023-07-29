@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Jogo da Velha</title>
+</head>
+<body>
+  <h1>Jogo da Velha</h1>
+  <p id="status">Vez do jogador "X"</p>
+  <table id="board">
+    <tr>
+      <td onclick="placeMark(0, 0)"></td>
+      <td onclick="placeMark(0, 1)"></td>
+      <td onclick="placeMark(0, 2)"></td>
+    </tr>
+    <tr>
+      <td onclick="placeMark(1, 0)"></td>
+      <td onclick="placeMark(1, 1)"></td>
+      <td onclick="placeMark(1, 2)"></td>
+    </tr>
+    <tr>
+      <td onclick="placeMark(2, 0)"></td>
+      <td onclick="placeMark(2, 1)"></td>
+      <td onclick="placeMark(2, 2)"></td>
+    </tr>
+  </table>
+  <button id="restartButton" onclick="restartGame()">Reiniciar Jogo</button>
+  <script src="./js/script.js"></script>
+</body>
+</html>
